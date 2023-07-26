@@ -1,0 +1,12 @@
+@import "./styles/Layout.scss";
+@import "./styles/Footer.scss";
+@import "./styles/Ventas.scss";
+@import "./styles/Home.css";
+@import "./styles/producto.scss";
+@import "./styles/Contacto.css";
+@import "./styles/SobreNosotros.css";
+
+.App {
+    height: 760px;
+    overflow-y: scroll;
+}

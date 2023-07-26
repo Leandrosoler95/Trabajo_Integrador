@@ -1,0 +1,32 @@
+.sobre-nosotros{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px 30px;
+    overflow-y: auto;
+}
+
+.sobre-nosotros::-webkit-scrollbar {
+    display: none;
+}
+.titulo-nosotros{
+    font-size: 48px;
+    -webkit-text-stroke:2px white ;
+    color: transparent;
+}
+
+h2{
+    margin: 5px;
+    background-color:  #24c9ec;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    display: flex;
+}

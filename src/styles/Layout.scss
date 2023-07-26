@@ -1,0 +1,51 @@
+.layout {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    bottom: 1;
+    background-image: url(../Imagenes/Electricidad-Electronica.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    .nav {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .titulo{
+            color: #0b6ef5;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+
+            .imagen {
+                height: 50px;
+            }
+
+            .titulo {
+                margin-left: 20px;
+            }
+        }
+
+        .nav-list {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 10px;
+
+            .link {
+                padding: 10px 20px;
+                text-decoration: none;
+                color: #0b6ef5;
+            }
+        }
+        
+    }
+}
