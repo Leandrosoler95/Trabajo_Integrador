@@ -18,7 +18,13 @@
             color: transparent;
         }
 
+        .filters {
+            width: 100%;
+            display: flex;
+        }
+
         .filter {
+            margin-right: 10px;
             border-radius: 1%;
         }
     }
