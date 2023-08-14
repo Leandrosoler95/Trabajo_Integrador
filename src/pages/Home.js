@@ -10,13 +10,13 @@ const Home = () => {
        <Link className="link" to="/Ventas">
          <div className="coleccion">
             <div className="imagenes-coleccion">
-              {productos.map(p => {
+              {productos.slice(0,8).map(p => {
                 return <img className="imagen-coleccion" key={p.id} alt={p.nombre} src={p.imagen}/>
               })}
             </div>
               <h3> PRODUCTOS DESTACADOS </h3>
               <div className="imagenes-coleccion">
-              {productos.reverse().map(p => {
+              {productos.slice(0,8).reverse().map(p => {
                 return <img className="imagen-coleccion" key={p.id} alt={p.nombre} src={p.imagen}/>
               })}
             </div>

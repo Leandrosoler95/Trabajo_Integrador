@@ -69,7 +69,7 @@ const Ventas = () => {
         // Si hay, muestro la lista de productos
         <div className="lista-de-productos"> 
           { productosFiltrados.map(p => {
-            return <Producto key={p.id} nombre={p.nombre} precio={p.precio} imagen={p.imagen}/>
+            return <Producto id={p.id} key={p.id} nombre={p.nombre} descripcion={p.descripcion} precio={p.precio} imagen={p.imagen}/>
           })}
         </div>
       :

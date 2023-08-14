@@ -22,3 +22,14 @@
         color: white;
     }
 }
+
+.seleccionado {
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    font-size: small;
+
+    .descripcion{
+        font-size: x-small;
+    
+    }
+}

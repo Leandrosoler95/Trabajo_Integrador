@@ -5,6 +5,7 @@
 @import "./styles/producto.scss";
 @import "./styles/Contacto.css";
 @import "./styles/SobreNosotros.css";
+@import "./styles/NoPage.scss";
 
 .App {
     height: 760px;
